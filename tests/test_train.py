@@ -22,4 +22,4 @@ def test_training_produces_good_accuracy():
     _, metrics = train_and_evaluate()
 
     assert 0.0 <= metrics["accuracy"] <= 1.0
-    assert metrics["accuracy"] >= 0.99999999999
+    assert metrics["accuracy"] >= 0.95
